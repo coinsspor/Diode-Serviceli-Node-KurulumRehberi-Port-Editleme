@@ -97,7 +97,7 @@ Environment=RPC_PORT=8545
 Environment=RPCS_PORT=8443
 Environment=EDGE2_PORT=41046,41045,993,1723,10000
 Environment=PEER2_PORT=51055
-Environment="ELIXIR_ERL_OPTIONS=-pa /usr/local/lib/elixir/ebin"
+Environment="PATH=/root/.asdf/installs/elixir/1.15.7/bin:/root/.asdf/installs/erlang/25.3.2.8/bin:/root/.asdf/shims:/root/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 ExecStart=/root/.asdf/shims/mix run --no-halt
 Restart=always
 RestartSec=5
@@ -105,6 +105,7 @@ LimitNOFILE=65536
 
 [Install]
 WantedBy=multi-user.target
+
 ```
 
 ## 9. SERVISI YUKLE, ETKINLESTIR VE BASLAT
