@@ -36,8 +36,8 @@ Cikmak icin: `Ctrl+C` sonra `a` sonra `Enter`
 
 ## 5. ELIXIR 1.15.7 (ref) KUR VE GLOBAL AYARLA
 ```bash
-asdf install elixir ref:v1.15.7
-asdf global elixir ref-v1.15.7
+asdf install elixir 1.15.7
+asdf global elixir 1.15.7
 ```
 ✅ Ardından .tool-versions dosyasını oluştur:
 ```bash
